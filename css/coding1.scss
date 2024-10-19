@@ -1,0 +1,83 @@
+header {
+  div.headerin {
+    h1 {
+      a {
+        img {}
+      }
+    }
+    button.button {
+      span {
+        &:nth-child(1) {}
+        &:nth-child(2) {}
+        &:nth-child(3) {}
+      }
+    }
+  }
+}
+
+main {
+  div.heading {
+    div.keyvisual {
+      img {}
+    }
+    div.title {
+      h2 {}
+      div.english {}
+    }
+  }
+  div.gradation {
+    img {}
+  }
+  section.service {
+    div.catch {}
+    div.lists {
+      div.item {
+        h2 {}
+        div.image {
+          img {}
+        }
+        div.text {
+          p {
+            br {}
+            &+p {}
+          }
+        }
+      }
+    }
+    div.area {
+      div.item {
+        h2 {}
+        div.consultation {}
+      }
+    }
+  }
+}
+
+footer {
+  div.footerin {
+    div.map {
+      iframe {}
+    }
+    div.text {
+      div.profile {
+        div.name {}
+        div.address {}
+        div.call {
+          div.tel {
+            a.number {}
+          }
+          div.fax {
+            a.number {}
+          }
+        }
+        div.time {}
+      }
+      div.contact {
+        a {
+          img {}
+        }
+      }
+    }
+  }
+  div.copyright {}
+}
