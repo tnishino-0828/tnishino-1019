@@ -547,7 +547,13 @@ main section.service div.area div.item div.consultation::after {
 }
 main div.pagetop {
   text-align: center;
-  margin-top: 164px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+@media (min-width: 768px) {
+  main div.pagetop {
+    margin-top: 164px;
+  }
 }
 footer {
   background-color: #1E4072;

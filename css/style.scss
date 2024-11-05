@@ -473,7 +473,11 @@ main {
   }
   div.pagetop {
     text-align: center;
-    margin-top: 164px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    @media (min-width: 768px) {
+      margin-top: 164px;
+    }
     div.arrow {
       img {}
     }
